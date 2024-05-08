@@ -1,0 +1,43 @@
+.tblbg {
+  background-color: #ffffff; /* Set background color to white */
+  min-height: 100vh; /* Ensure the wrapper covers the entire viewport height */
+}
+
+.tblbg {
+  width: 100%; /* Ensure the background covers the entire width */
+  height: 100vh; /* Ensure the background covers the entire viewport height */
+}
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 0; /* Remove border from the table */
+}
+
+td, th {
+  /* border: 1px solid #dddddd; */ /* Remove this line to remove border from cells */
+  text-align: left;
+  padding: 10px;
+  padding-right: 100px;
+  width: 400px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+.list-header {
+  display: inline-block; /* Set display to inline-block */
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 10px;
+
+  border-radius: 5px;
+  
+}
+
+.tblist {
+  margin-left: 85px;
+}

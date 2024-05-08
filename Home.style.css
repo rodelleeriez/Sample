@@ -1,0 +1,54 @@
+
+
+  h1 {
+    font-family: Arial, sans-serif; /* Use a basic font */
+    font-size: 24px; /* Set the font size */
+    color: #302f2f; /* Set the text color */
+    background-color: #ffffff; /* Set a light background color */
+    padding: 10px; /* Add some padding around the text */
+    border: 2px solid #ffffff; /* Add a border */
+    width: 20%; /* Set the width of the container */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    display: block; /* Change display to block */
+    margin-bottom: 10px; /* Add margin-bottom to create space below */
+    margin-right: auto; /* Automatically adjust right margin */
+    margin-left: auto; /* Automatically adjust left margin */
+  }
+  
+  
+  
+  h2 {
+    font-family: Arial, sans-serif; /* Use a basic font */
+    font-size: 12px; /* Set the font size */
+    color: #ffffff; /* Set the text color */
+    padding: 10px; /* Add some padding around the text */
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    display: inline-block; /* Make the element inline-block */
+    margin-left: 15px;
+  }
+  
+  
+.section-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.add-employee-btn {
+  font-family: Arial, sans-serif; /* Set the font family */
+  font-size: 14px; /* Set the font size */
+  position: absolute; /* Set position to absolute */
+  top: 80px; /* Adjust top position */
+  right: 500px; /* Adjust right position */
+  background-color: #FEAF00;
+  border: none;
+  color: white;
+  width: 180px; /* Adjust button width */
+  height: 40px !important;
+  padding: 0 20px; /* Adjust padding to keep text centered */
+}
+
+
+
+

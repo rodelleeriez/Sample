@@ -1,0 +1,36 @@
+.modal {
+  position: absolute; /* Stay in place */
+  margin-left: 800px;
+  margin-top: 300px;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 20%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #0056b3;
+    text-decoration: none;
+    cursor: pointer;
+  }
